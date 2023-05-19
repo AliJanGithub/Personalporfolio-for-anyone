@@ -1,0 +1,412 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merienda+One&family=Roboto+Mono&family=Roboto:wght@100&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200&family=Indie+Flower&family=Merienda+One&family=Roboto+Mono&family=Roboto:wght@100&display=swap');  */
+
+* {
+    margin: 0;
+    padding: 0;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;animation: 2s ease-in-out;
+}
+.ham{
+    height: 23px;width: 23px;animation: 2s ease-in-out;
+}
+.cross{
+    height: 23px;width: 23px;margin-left: 60px;
+}
+img.cross{
+    padding: 2px 86px;
+    /* position: absolute; */
+    cursor: pointer;
+  }
+img.ham{
+    padding-left: 146px;
+    padding-top: 24px;
+    cursor: pointer;
+}
+.sidebargo{
+display: none;animation: 2s ease-in-out;
+
+}
+
+
+.container nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding: 40px 25px;
+    font-size: 2rem;
+}
+
+.container nav ul li a {
+    padding: 2px 19px;
+    margin: 30px 0px;
+}
+.left-side{
+    background-color: #9d9898;height: 100vh;position: absolute;
+}
+
+.container nav ul li a:hover {
+    background-color: rgb(65, 27, 27);
+    color: white;
+    border: 2px solid #9d9898;animation: 2s ease-in-out;
+    border-radius: 25px;
+    /* font-size: 2rem; */
+    /* padding: 2px 3px ; */
+}
+
+
+.container nav ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+.text1 {
+    padding: 14px 0px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+.text2:hover {
+    font-size: 50px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text2 {
+    padding: 14px 0px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.text3 {
+    padding: 14px 0px;
+    font-size: 20px;
+    cursor: pointer;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text4 {
+    padding: 10px 0px;
+    font-size: 20px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+
+}
+
+.right-side {
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 40px;
+    /* background-color: rgb(18, 18, 18); */
+    color:black;
+    /* background-color: white;color: black; */
+}
+
+div.image {
+    width: 40vw;
+    height: 30.3vh;
+    display: flex;
+    border-radius:4px;
+   
+    justify-content: center;
+    flex-direction: column;
+    padding: 270px 20px;
+    background-color: white;
+    /* background-color: rgb(18, 18, 18); */
+}
+
+img {
+    height: 268px;
+    width: 338px;
+   
+
+
+}
+
+button {
+    width: 113px;
+    padding: 13px 0px;
+    margin: 2px 0px;
+    cursor: pointer;
+    background-color: #b38989;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: black;
+    font-style: none;list-style: none;text-decoration: none;
+}
+button a{
+    font-style: none;list-style: none;text-decoration: none;color: black;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+button a:hover {
+    background-color: black;
+    color: white;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+}
+
+#blog-1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+#blog-2 {
+    padding: 10px 15px;
+}
+
+#blod-3 {
+    padding: 2px 15px;
+}
+
+button#btn {
+    margin: 10px;
+}
+
+.btn0 {
+    width: 92px;
+    background-color: #b38989;
+    padding: 10px 0px;
+    margin: 10px 15px;
+}
+
+/* button{
+    padding:40px 0px ;margin-top: 10px; font-family: 'Roboto', sans-serif;
+    /* cursor: pointer; */
+
+button#btn {
+    margin: 13px 0px;
+    cursor: pointer;
+
+}
+
+/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+ */
+/* about contact info */
+.container {
+    display: flex;
+}
+
+h1 {
+    margin: 5px 10px;
+    font-size: 4em;
+}
+
+.name2 {
+    margin: 30px 10px;
+    font-size: 1em;
+}
+
+.date2 {
+    margin: 30px 10px;
+    font-size: 1em;
+}
+
+.email2 {
+    margin: 30px 10px;
+    font-size: 1em;
+}
+
+.work2 {
+    margin: 30px 10px;
+    font-size: 1em;
+}
+
+.chickbox {
+    margin: 30px 10px;
+    font-size: 1em;
+}
+
+p#paracontact {
+    margin: 30px 10px;
+    font-size: 1em;
+}
+
+input#date {
+    padding: 10px 60px;
+}
+
+input#name {
+    padding: 10px 60px;
+}
+
+input#work {
+    padding: 10px 60px;
+}
+
+input#email {
+    padding: 10px 60px;
+}
+
+.abut {
+    font-size: 1em;
+    padding: 15px 10px;
+    color: black;margin-top: 10px;
+    /* font-family 'Indie Flower', cursive; */
+}
+
+.heading1 {
+    font-size: 0.5em;
+    color:black;}
+
+.heading {
+    color: black;display: flex;align-items: center;justify-content: center;
+
+}
+
+
+
+.kye {
+    padding: 30px;
+    margin-top: 10px;
+
+}
+@media only screen and (max-width: 600px) {
+   
+        div.image {
+            display: none;
+        }
+        /*  */
+            .text1 {
+                font-size: 25px;
+            }
+            .text2 {
+                font-size: 20px;
+            }
+            .text3 {
+                font-size: 13px;padding: 10px 10px;
+            }
+            .text4 {
+                font-size: 10px;
+            }
+            .blog {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            #blog-1 {
+                display: flex;
+                justify-content: center;
+                font-size: 2em;padding:2px 0px;
+            }
+           
+            
+            .blog {
+                display: flex;
+                flex-direction: column;
+                padding: 2px 0px;
+            }
+            
+            #blog-2 {
+                padding: 2px 5px;font-size: 1em;
+            }
+            
+            #blod-3 {
+                padding: 2px 5px;font-size: 10px;
+            }
+            button#btn {
+                margin: 5px;
+            }
+            
+            .btn0 {
+                width: 62px;
+                background-color: #b38989;
+                padding: 5px 0px;
+                margin: 5px 5px;
+            }
+            .abut {
+                font-size: 0.5em;
+                padding: 15px 4px;
+                color: black;margin-top: 5px;
+                /* font-family 'Indie Flower', cursive; */
+            }
+            
+            .heading1 {
+                font-size: 0.3em;
+                color:black;}
+            
+            .heading {
+                color: black;display: flex;font-size: 0.4em;margin-top: 10px;
+            
+            }
+            .kye{
+                font-size: 1em;padding: 30px 10px;flex-wrap: wrap;
+            }
+            .kye h1{
+                font-size: 1.5em;padding: 10px 0px;
+            }
+            left-side{
+                background-color: #9d9898;height: 100vh;position: fixed;
+            }
+            .container {
+                display: flex;
+            }
+            
+            h1 {
+                margin: 6px 5px;
+                font-size: 2em;
+            }
+            
+            .name2 {
+                margin: 10px 10px;
+                font-size: 1em;
+            }
+            
+            .date2 {
+                margin: 10px 10px;
+                font-size: 1em;
+            }
+            
+            .email2 {
+                margin: 10px 10px;
+                font-size: 1em;
+            }
+            
+            .work2 {
+                margin: 10px 10px;
+                font-size: 1em;
+            }
+            
+            .chickbox {
+                margin: 10px 10px;
+                font-size: 1em;
+            }
+            
+            p#paracontact {
+                margin: 10px 10px;
+                font-size: 1em;
+            }
+            
+            input#date {
+                padding: 4px 5px;
+            }
+            
+            input#name {
+                padding: 4px 5px;
+            }
+            
+            input#work {
+                padding: 4px 5px;
+            }
+            
+            input#email {
+                padding: 4px 5px;
+            }
+            
+  }
